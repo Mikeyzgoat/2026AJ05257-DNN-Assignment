@@ -14,6 +14,4 @@ jupyter notebook
 
 Run `problem1/problem1.ipynb` and `problem2/problem2.ipynb` from top to bottom. Each notebook contains its own imports, data pipeline, checks, experiment helpers and plotting code. Results are appended to `results.csv`, and figures are written under the relevant `figures/` folder.
 
-The student-specific odd-ID ablation is LSTM forget-gate bias 0 versus 1 at `T=200`.
-
-The from-scratch RNN/LSTM/GRU cells and attention/Transformer blocks are deliberately TODOs because the assignment requires the student to write them. No experimental results, plots, generated samples or report content have been fabricated. Complete those cells before producing `report.pdf` and final samples.
+The student-specific odd-ID ablation is LSTM forget-gate bias 0 versus 1 at `T=200`. The custom recurrent cells, restricted attention, Transformer, training helpers, sampling, heatmaps, and profiling code are implemented. Long-running data downloads and experiments remain opt-in via the notebook flags/comments, so no fabricated results are committed.
